@@ -1,0 +1,1 @@
+V25: inquiry-first workflow. Customer submits one travel inquiry; all itinerary/quote/supplier/payment follow-up remains manual by email. No payment gateway added.

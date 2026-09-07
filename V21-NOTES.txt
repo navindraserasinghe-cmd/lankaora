@@ -1,0 +1,24 @@
+V21 — Real Booking Engine + Payment Architecture
+
+Customer side:
+- Verified supplier cards now expose Request booking.
+- Booking modal captures customer, arrival date, travellers, service and message.
+- Public POST /api/bookings creates a booking request only for active Verified suppliers.
+- Customer receives a booking ID and clear no-payment-yet state.
+
+Booking lifecycle:
+New → Reviewing → Confirmed → payment-ready → Completed / Declined
+
+Payment architecture:
+- booking_requests now stores quoted_amount, currency, payment_status and payment_reference.
+- POST /api/bookings/:id/payment-intent creates a provider-neutral payment reference only after supplier confirmation + quote.
+- No card details are accepted or stored by Lankaora.
+- Connect a PCI-compliant payment provider checkout at the marked integration point.
+
+Admin:
+- GET /api/bookings/admin
+- PATCH /api/bookings/admin/:id for status + quote management.
+
+Important:
+- Real payments are intentionally not activated without provider credentials/configuration.
+- Prices and availability are not invented; suppliers confirm final quote and availability.

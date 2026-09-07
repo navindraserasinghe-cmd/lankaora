@@ -1,0 +1,262 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Build a Sri Lanka trip around your interests, destinations, trip length, pace and planning budget, then send an inquiry to Lankaora."><title>Build Your Sri Lanka Trip | Lankaora</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-pages.css"><link rel="canonical" href="https://www.lankaora.com/build.html">
+<style>
+.nav { position: relative; }
+.nav nav { position: relative; }
+.nav-dropdown { display:inline-flex; align-items:center; gap:.35rem; cursor:pointer; }
+.nav-chevron { font-size:.8em; line-height:1; transition:transform .2s ease; }
+.nav nav.explore-open .nav-chevron { transform:rotate(180deg); }
+
+.nav-explore-submenu {
+  position:absolute;
+  top:100%;
+  left:0;
+  min-width:190px;
+  display:none;
+  flex-direction:column;
+  padding:.55rem;
+  background:var(--surface, #fff);
+  border:1px solid rgba(0,0,0,.10);
+  box-shadow:0 12px 30px rgba(0,0,0,.12);
+  z-index:1000;
+}
+.nav:hover + .nav-explore-submenu,
+.nav:focus-within + .nav-explore-submenu,
+.nav.explore-open + .nav-explore-submenu { display:flex; }
+.nav-explore-submenu a { white-space:nowrap; }
+
+.mobile-explore-group { display:block; }
+.mobile-explore-toggle {
+  width:100%; display:flex; align-items:center; justify-content:space-between;
+  background:none; border:0; font:inherit; cursor:pointer; padding:inherit;
+}
+.mobile-explore-submenu { padding-left:1rem; }
+.mobile-explore-submenu a { display:block; }
+
+.sr-only {
+  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+}
+</style>
+
+<style>
+/* Lankaora Explore dropdown — fixed */
+.nav-explore { position: relative; display: inline-block; }
+.nav-explore > .nav-dropdown { display: inline-flex; align-items: center; gap: .35rem; cursor: pointer; }
+.nav-chevron { font-size: .8em; line-height: 1; transition: transform .2s ease; }
+.nav-explore.is-open .nav-chevron { transform: rotate(180deg); }
+
+.nav-explore-submenu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  min-width: 190px;
+  display: none;
+  flex-direction: column;
+  padding: .5rem;
+  background: var(--surface, #fff);
+  border: 1px solid rgba(0,0,0,.10);
+  box-shadow: 0 12px 30px rgba(0,0,0,.12);
+  border-radius: 8px;
+  z-index: 9999;
+}
+.nav-explore:hover .nav-explore-submenu,
+.nav-explore:focus-within .nav-explore-submenu,
+.nav-explore.is-open .nav-explore-submenu {
+  display: flex;
+}
+.nav-explore-submenu a {
+  display: block;
+  white-space: nowrap;
+  padding: .65rem .8rem;
+}
+.mobile-explore-group { display:block; }
+.mobile-explore-toggle {
+  width:100%; display:flex; align-items:center; justify-content:space-between;
+  background:none; border:0; font:inherit; cursor:pointer;
+}
+.mobile-explore-submenu { padding-left:1rem; }
+.mobile-explore-submenu a { display:block; }
+</style>
+<style id="lankaora-modern-layer">
+:root{
+  --lk-radius:18px;
+  --lk-radius-sm:12px;
+  --lk-shadow:0 14px 40px rgba(0,0,0,.08);
+  --lk-shadow-hover:0 20px 55px rgba(0,0,0,.12);
+  --lk-ease:cubic-bezier(.2,.75,.25,1);
+}
+html{scroll-behavior:smooth}
+body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a,button{transition:transform .2s var(--lk-ease),opacity .2s ease,background-color .2s ease,border-color .2s ease,box-shadow .2s ease}
+a:focus-visible,button:focus-visible{outline:3px solid currentColor;outline-offset:4px}
+.nav{backdrop-filter:saturate(140%) blur(12px);-webkit-backdrop-filter:saturate(140%) blur(12px)}
+.page-grid{gap:clamp(14px,2vw,24px)}
+.meta-box,.card,.destination-card,.explore-destination-card{border-radius:var(--lk-radius-sm)}
+.explore-destination-card{
+  position:relative;overflow:hidden;min-height:170px;
+  padding:clamp(18px,3vw,28px);box-shadow:var(--lk-shadow);
+  transform:translateY(0)
+}
+.explore-destination-card:hover{transform:translateY(-4px);box-shadow:var(--lk-shadow-hover)}
+.explore-destination-card .eyebrow{letter-spacing:.12em;font-size:.72rem;opacity:.72}
+.explore-destination-card strong{font-size:clamp(1.15rem,2vw,1.55rem);letter-spacing:-.02em}
+.explore-card-link{font-size:.9rem;opacity:.72}
+img{max-width:100%;height:auto}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+</style>
+<style id="lankaora-v54-global">
+/* Lankaora v54 — durable editorial polish */
+:root{--lk-ink:#13221C;--lk-paper:#F4F1E9;--lk-line:rgba(19,34,28,.14);--lk-radius:16px;--lk-ease:cubic-bezier(.2,.75,.25,1)}
+::selection{background:var(--lk-ink);color:#fff}
+.nav-explore-submenu{border-radius:12px!important;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.14)!important}
+.nav-explore-submenu a{transition:background .2s ease,transform .2s var(--lk-ease)}
+.nav-explore-submenu a:hover{background:rgba(19,34,28,.07);transform:translateX(2px)}
+.page-shell .page-hero{max-width:1240px}
+.page-shell .cta-panel,.page-shell .meta-box,.page-shell .card{border-radius:var(--lk-radius)}
+button:focus-visible,a:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style><link rel="stylesheet" href="typography-v55.css">
+</head><body class="page-build"><a class="skip-link" href="#main-content">Skip to content</a><header class="nav"><a class="brand" href="index.html"><span class="brand-small">Sri Lanka Travel Guide</span><span class="brand-name">Lankaora</span></a><nav aria-label="Primary navigation">
+  <div class="nav-explore">
+    <a class="nav-dropdown" href="explore.html" aria-haspopup="true" aria-expanded="false">
+      <span>Explore Sri Lanka</span><span class="nav-chevron" aria-hidden="true">⌄</span>
+    </a>
+    <div class="nav-explore-submenu" aria-label="Explore Sri Lanka submenu">
+      <a href="regions.html">Regions</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="experiences.html">Experiences</a>
+    </div>
+  </div>
+  <a href="guide.html">Sri Lanka Guide</a>
+  <a href="routes.html">Routes</a>
+  <a href="plan.html">Plan Your Trip</a>
+  <a href="map.html">Map</a>
+</nav><button class="mobile-menu-btn" aria-label="Open menu">Menu</button><a class="nav-cta" href="build.html">Build My Trip</a></header><main id="main-content" class="page-shell"><section class="solid-page-hero"><div class="page-hero"><p class="eyebrow">BUILD MY TRIP</p><h1>Shape your<br><em>Sri Lanka.</em></h1><p>Choose where you want to go, how long you have, the kind of journey you want and a comfortable planning budget. Lankaora turns those choices into a starting route — then you can send an inquiry and finalize the details by email.</p></div></section><section class="page-shell" style="padding-top:55px"><div class="planner-v41" aria-label="Sri Lanka journey builder"><div class="planner-row"><div class="planner-label">01 / FOCUS</div><div class="planner-options" data-choice-group="focus"><button data-value="nature">Wild & Nature</button><button data-value="beach">Coast & Beach</button><button data-value="culture">Heritage & Culture</button><button data-value="wildlife">Wildlife</button><button data-value="luxury">Luxury & Escape</button><button data-value="adventure">Adventure</button></div></div><div class="planner-row"><div class="planner-label">02 / WHERE</div><div class="planner-options" data-choice-group="where"><button data-value="Flexible">Flexible</button><button data-value="Cultural Triangle">Cultural Triangle</button><button data-value="Hill Country">Hill Country</button><button data-value="South Coast">South Coast</button><button data-value="East Coast">East Coast</button><button data-value="North">North</button><button data-value="Wildlife">Wildlife</button></div></div><div class="planner-row"><div class="planner-label">03 / TIME</div><div class="planner-options" data-choice-group="days"><button data-value="5">5 days</button><button data-value="7">7 days</button><button data-value="10">10 days</button><button data-value="14">14 days</button></div></div><div class="planner-row"><div class="planner-label">04 / PACE</div><div class="planner-options" data-choice-group="pace"><button data-value="balanced">Balanced</button><button data-value="slow">Slow & Easy</button><button data-value="more">See More</button></div></div><div class="planner-row"><div class="planner-label">05 / BUDGET</div><div class="planner-options" data-choice-group="budget"><button data-value="budget">Smart</button><button data-value="comfort">Comfort</button><button data-value="premium">Premium</button></div></div><div class="planner-tools"><button type="button" id="planner-reset">Reset choices</button><span>Your choices are saved on this device.</span></div><div class="planner-tools"><button type="button" id="planner-reset">Reset choices</button><span>Your choices are saved on this device.</span></div><div class="planner-result"><div><p class="eyebrow">YOUR STARTING JOURNEY</p><h2 id="planner-result-title">The Wild Heart · 7 days</h2><p id="planner-route" class="planner-route"></p><div class="planner-actions"><a id="planner-inquiry" href="plan.html#build-trip">Continue to Plan Your Trip →</a></div></div><div class="planner-side"><span>PLANNING RANGE</span><strong id="planner-budget">US$ 1,000 – 1,500*</strong><small id="planner-meta">Flexible · Comfort · Balanced</small><div id="planner-note" class="planner-footnote"></div></div></div></div><section class="guide" style="margin-top:45px"><div><p class="eyebrow">HOW IT WORKS</p><h2>Discover → Shape → Inquire.</h2></div><div><p>These choices create a planning starting point, not a fixed booking. Your final route, accommodation, transport, suppliers and quote are reviewed with you before confirmation.</p></div></section></section></main><footer class="footer-simple"><strong>Lankaora</strong> — Explore Sri Lanka Now</footer><div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+<button class="close" id="mobileClose" aria-label="Close menu">Close</button>
+<div class="mobile-explore-group">
+  <button class="mobile-explore-toggle" type="button" aria-expanded="false" aria-controls="mobileExploreSubmenu">
+    <span>Explore Sri Lanka</span><span aria-hidden="true">⌄</span>
+  </button>
+  <div class="mobile-explore-submenu" id="mobileExploreSubmenu" hidden>
+    <a href="regions.html">Regions</a>
+    <a href="destinations.html">Destinations</a>
+    <a href="experiences.html">Experiences</a>
+  </div>
+</div>
+<a href="guide.html">Sri Lanka Guide</a>
+<a href="routes.html">Routes</a>
+<a href="plan.html">Plan Your Trip</a>
+<a href="map.html">Map</a>
+<a href="build.html">Build My Trip</a>
+</div><script src="builder-v41.js"></script><script>
+(function(){
+ const path=location.pathname.replace(/\\/g,'/');
+ document.querySelectorAll('.nav nav a').forEach(a=>{
+   const href=(a.getAttribute('href')||'').split('#')[0].split('?')[0];
+   const target=href.replace(/^\.\//,'').replace(/^\.\.\//,'');
+   const current=path.endsWith(target)||((target==='index.html'||target==='')&&/\/$/.test(path));
+   if(current)a.setAttribute('aria-current','page');
+ });
+ const btn=document.querySelector('.mobile-menu-btn'), menu=document.getElementById('mobileMenu'), close=document.getElementById('mobileClose');
+ if(!btn||!menu)return;
+ const open=()=>{menu.classList.add('open');menu.setAttribute('aria-hidden','false');btn.setAttribute('aria-expanded','true');close&&close.focus()};
+ const shut=()=>{menu.classList.remove('open');menu.setAttribute('aria-hidden','true');btn.setAttribute('aria-expanded','false');btn.focus()};
+ btn.setAttribute('aria-expanded','false'); btn.addEventListener('click',open);
+ close&&close.addEventListener('click',shut);
+ menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remove('open');menu.setAttribute('aria-hidden','true');btn.setAttribute('aria-expanded','false')}));
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu.classList.contains('open'))shut()});
+})();
+</script>
+
+<script>
+(function(){
+  const wrap = document.querySelector('.nav-explore');
+  const parent = document.querySelector('.nav-dropdown');
+  const mobileBtn = document.querySelector('.mobile-menu-btn');
+  const menu = document.getElementById('mobileMenu');
+  const closeBtn = document.getElementById('mobileClose');
+  const mobileToggle = document.querySelector('.mobile-explore-toggle');
+  const mobileSub = document.getElementById('mobileExploreSubmenu');
+
+  // Desktop: click toggles submenu; clicking a submenu item navigates normally.
+  if (wrap && parent) {
+    parent.addEventListener('click', function(e){
+      // First click opens the submenu instead of navigating.
+      // Second click follows explore.html.
+      if (!wrap.classList.contains('is-open')) {
+        e.preventDefault();
+        wrap.classList.add('is-open');
+        parent.setAttribute('aria-expanded','true');
+      }
+    });
+    document.addEventListener('click', function(e){
+      if (!wrap.contains(e.target)) {
+        wrap.classList.remove('is-open');
+        parent.setAttribute('aria-expanded','false');
+      }
+    });
+    parent.addEventListener('keydown', function(e){
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        wrap.classList.add('is-open');
+        parent.setAttribute('aria-expanded','true');
+        const first=wrap.querySelector('.nav-explore-submenu a');
+        if(first) first.focus();
+      }
+      if(e.key === 'Escape'){
+        wrap.classList.remove('is-open');
+        parent.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  // Mobile menu + mobile Explore submenu.
+  if(menu && mobileBtn){
+    const openMenu=()=>{
+      menu.classList.add('open');
+      menu.setAttribute('aria-hidden','false');
+      mobileBtn.setAttribute('aria-expanded','true');
+      if(closeBtn) closeBtn.focus();
+    };
+    const shutMenu=()=>{
+      menu.classList.remove('open');
+      menu.setAttribute('aria-hidden','true');
+      mobileBtn.setAttribute('aria-expanded','false');
+      if(mobileToggle) mobileToggle.setAttribute('aria-expanded','false');
+      if(mobileSub) mobileSub.hidden=true;
+      mobileBtn.focus();
+    };
+    mobileBtn.setAttribute('aria-expanded','false');
+    mobileBtn.addEventListener('click',openMenu);
+    if(closeBtn) closeBtn.addEventListener('click',shutMenu);
+    if(mobileToggle && mobileSub){
+      mobileToggle.addEventListener('click',()=>{
+        const expanded=mobileToggle.getAttribute('aria-expanded')==='true';
+        mobileToggle.setAttribute('aria-expanded',String(!expanded));
+        mobileSub.hidden=expanded;
+      });
+    }
+    menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+      menu.classList.remove('open');
+      menu.setAttribute('aria-hidden','true');
+      mobileBtn.setAttribute('aria-expanded','false');
+    }));
+    document.addEventListener('keydown',e=>{
+      if(e.key==='Escape' && menu.classList.contains('open')) shutMenu();
+    });
+  }
+
+  // Active page state.
+  const path=location.pathname.replace(/\\/g,'/');
+  document.querySelectorAll('.nav nav a, .mobile-menu a').forEach(a=>{
+    const href=(a.getAttribute('href')||'').split('#')[0].split('?')[0];
+    const target=href.replace(/^\.\//,'').replace(/^\.\.\//,'');
+    const current=path.endsWith(target)||((target==='index.html'||target==='')&&/\/$/.test(path));
+    if(current) a.setAttribute('aria-current','page');
+  });
+})();
+</script>
+</body></html>

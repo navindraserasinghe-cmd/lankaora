@@ -1,0 +1,3 @@
+V39 — Destination SEO Guides
+
+Added static, crawlable destination guide pages for 12 destinations with unique titles, descriptions, canonical URLs, Open Graph metadata, TouristDestination + BreadcrumbList structured data, internal links, FAQs and Build My Trip CTA. Updated destinations.html to link to static destination URLs and refreshed sitemap.xml.

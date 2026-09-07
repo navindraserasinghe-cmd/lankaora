@@ -1,0 +1,1 @@
+V20 — Supplier Portal + Booking Requests. Added supplier accounts, application flow, supplier login/session, profile editing, booking request records/status updates, admin booking endpoint, and responsive supplier dashboard UI. New supplier profiles remain Pending until reviewed. Demo supplier accounts are not created automatically.

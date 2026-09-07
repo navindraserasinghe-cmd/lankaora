@@ -1,0 +1,2 @@
+V24 — Full Trip Dashboard / Journey Workspace.
+Added a unified customer workspace for Overview, Itinerary, Stays & Move, and Bookings, with print/share actions and responsive mobile layout. Reuses existing journey and customer booking APIs; no fake live availability or payment data introduced.

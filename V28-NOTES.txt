@@ -1,0 +1,2 @@
+V28 — Sri Lanka Regions
+Added a region discovery layer with 8 Sri Lanka regions, regional descriptions, places, signature experiences, ideal duration, travel styles and scenic flows. Existing journey/inquiry/backend features are preserved. Region intent is saved locally as a lightweight bridge for future Journey integration.

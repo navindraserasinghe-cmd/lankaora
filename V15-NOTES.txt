@@ -1,0 +1,1 @@
+V15: Season Smart Planner. Month selector, seasonal regional matches, saved month, smart-card highlighting. Guidance is not a live forecast.

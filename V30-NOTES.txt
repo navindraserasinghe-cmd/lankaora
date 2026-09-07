@@ -1,0 +1,1 @@
+V30: multi-page information architecture. Home remains the journey-builder entry point; Explore, Regions/Destinations, Experiences, Routes, Plan, Map and Build are separate pages. Content is starter editorial structure and should be fact-checked/deepened before production.

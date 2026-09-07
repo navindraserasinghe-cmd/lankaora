@@ -1,0 +1,3 @@
+V36 — Shared navigation fix
+
+Every page now has a consistent site menu. The Lankaora logo always returns to Home, desktop navigation is shared across pages, and mobile uses a visible Menu drawer with Home, Explore, Regions, Destinations, Experiences, Routes, Plan Your Trip, Map and Build My Trip.

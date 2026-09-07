@@ -1,0 +1,1 @@
+V17 — Trip route comparison: Relaxed / Classic / Explore More presets, route comparison cards, selection state, local persistence. This is planning UX; it does not overwrite the user's existing journey automatically.

@@ -1,0 +1,25 @@
+LANKAORA V26 — SRI LANKA CONTENT FOUNDATION
+
+Base: V25 Inquiry-first workflow
+
+What changed:
+- Added a Sri Lanka discovery/content layer inspired by the information architecture of Visit Iceland, without copying its content.
+- Added Explore Sri Lanka intro section.
+- Added Regions discovery: South Coast, Hill Country, Cultural Triangle, East Coast, North, Western Gateway, Wild Sri Lanka, Sabaragamuwa & Uva.
+- Added Scenic Routes: Southern Coast Road, Tea & Mountain Journey, Ancient Sri Lanka, Wild Heart of Sri Lanka, Island Highlights.
+- Added Experiences: Nature, Wildlife, Beaches, Adventure, Culture & Heritage, Food & Tea, Wellness, Local Life.
+- Added Trip Suggestions: 5/7/8/10/14-day starting ideas.
+- Added Plan Your Trip guide cards: When to Visit, Getting Around, Travel Essentials, Responsible Travel.
+- Responsive layout for desktop/tablet/mobile.
+- Kept existing Journey Builder, map, inquiry-first workflow, customer account, supplier foundation and backend intact.
+
+Important:
+- This is a content foundation, not a claim that every card is a finished destination guide.
+- Seasonal information should remain general guidance until each destination page is populated with verified official/local data.
+- Planning prices already in the project remain illustrative; no live availability is claimed.
+- V26 does not add a payment gateway.
+
+Files added/changed:
+- index.html
+- style.css
+- v26-content.js

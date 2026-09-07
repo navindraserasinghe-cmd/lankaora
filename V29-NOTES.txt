@@ -1,0 +1,5 @@
+V29 — Experiences & Things To Do
+Built on V28. Adds a discovery layer inspired by the experience/inspiration architecture of Visit Iceland, adapted for Sri Lanka.
+Includes Nature, Wildlife, Beaches, Adventure, Culture & Heritage, Food & Tea, Wellness and Local Life.
+Each experience has what it is, where, best-time guidance, duration, travel style, related places and an Add to My Journey intent.
+Season wording is general planning guidance, not live weather or availability. No direct payment/booking was added.

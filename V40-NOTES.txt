@@ -1,0 +1,10 @@
+V40 — Hero Image + Region SEO Guides
+
+1. Fixed Home hero text visibility by restoring a real photographic hero background. One hero image only, using a Wikimedia Commons CC BY 2.0 image by Kosala Bandara. Attribution is visible on the hero.
+2. Added OG/Twitter image metadata on Home.
+3. Expanded Regions into crawlable SEO landing pages under /regions/.
+4. Added TouristDestination + BreadcrumbList structured data to region pages.
+5. Updated regions.html to link to individual region guides.
+6. Updated sitemap.xml with region URLs.
+7. Preserved inquiry-first flow and existing shared navigation.
+8. No live availability/prices claimed.

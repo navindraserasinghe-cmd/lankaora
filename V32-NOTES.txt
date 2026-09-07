@@ -1,0 +1,2 @@
+V32 — Plan Your Trip
+Expanded Plan page into a practical information hub: When to Visit, Getting Around, Travel Essentials, Where to Stay, Plan by Pace, Responsible Travel. Existing V30 multi-page architecture preserved.

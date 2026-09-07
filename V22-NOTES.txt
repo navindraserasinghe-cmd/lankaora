@@ -1,0 +1,1 @@
+V22 — Customer My Trip + Booking Tracking. Adds Booking ID lookup UI, status timeline, quote/payment summary, and a read-only booking lookup API. No card/payment credentials are stored. Requires the V21 bookings table/fields; gracefully shows not-found if unavailable.

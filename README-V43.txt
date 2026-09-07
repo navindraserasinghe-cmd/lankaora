@@ -1,0 +1,1 @@
+V43 — Sri Lanka Guide editorial layer. Added guide.html with tourist-friendly guide chapters, shared navigation, Explore link, SEO metadata and sitemap entry. Content is grounded in current official Sri Lanka Tourism themes and planning guidance.

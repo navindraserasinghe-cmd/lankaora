@@ -1,0 +1,263 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Explore Sri Lanka itineraries and scenic routes for 7, 10 and 14 day journeys, with ideas for different travel styles."><link rel="canonical" href="https://www.lankaora.com/routes.html"><title>Sri Lanka Itineraries & Scenic Routes | Lankaora</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-pages.css">
+<style>
+.nav { position: relative; }
+.nav nav { position: relative; }
+.nav-dropdown { display:inline-flex; align-items:center; gap:.35rem; cursor:pointer; }
+.nav-chevron { font-size:.8em; line-height:1; transition:transform .2s ease; }
+.nav nav.explore-open .nav-chevron { transform:rotate(180deg); }
+
+.nav-explore-submenu {
+  position:absolute;
+  top:100%;
+  left:0;
+  min-width:190px;
+  display:none;
+  flex-direction:column;
+  padding:.55rem;
+  background:var(--surface, #fff);
+  border:1px solid rgba(0,0,0,.10);
+  box-shadow:0 12px 30px rgba(0,0,0,.12);
+  z-index:1000;
+}
+.nav:hover + .nav-explore-submenu,
+.nav:focus-within + .nav-explore-submenu,
+.nav.explore-open + .nav-explore-submenu { display:flex; }
+.nav-explore-submenu a { white-space:nowrap; }
+
+.mobile-explore-group { display:block; }
+.mobile-explore-toggle {
+  width:100%; display:flex; align-items:center; justify-content:space-between;
+  background:none; border:0; font:inherit; cursor:pointer; padding:inherit;
+}
+.mobile-explore-submenu { padding-left:1rem; }
+.mobile-explore-submenu a { display:block; }
+
+.sr-only {
+  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+}
+</style>
+
+<style>
+/* Lankaora Explore dropdown — fixed */
+.nav-explore { position: relative; display: inline-block; }
+.nav-explore > .nav-dropdown { display: inline-flex; align-items: center; gap: .35rem; cursor: pointer; }
+.nav-chevron { font-size: .8em; line-height: 1; transition: transform .2s ease; }
+.nav-explore.is-open .nav-chevron { transform: rotate(180deg); }
+
+.nav-explore-submenu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  min-width: 190px;
+  display: none;
+  flex-direction: column;
+  padding: .5rem;
+  background: var(--surface, #fff);
+  border: 1px solid rgba(0,0,0,.10);
+  box-shadow: 0 12px 30px rgba(0,0,0,.12);
+  border-radius: 8px;
+  z-index: 9999;
+}
+.nav-explore:hover .nav-explore-submenu,
+.nav-explore:focus-within .nav-explore-submenu,
+.nav-explore.is-open .nav-explore-submenu {
+  display: flex;
+}
+.nav-explore-submenu a {
+  display: block;
+  white-space: nowrap;
+  padding: .65rem .8rem;
+}
+.mobile-explore-group { display:block; }
+.mobile-explore-toggle {
+  width:100%; display:flex; align-items:center; justify-content:space-between;
+  background:none; border:0; font:inherit; cursor:pointer;
+}
+.mobile-explore-submenu { padding-left:1rem; }
+.mobile-explore-submenu a { display:block; }
+</style>
+<style id="lankaora-modern-layer">
+:root{
+  --lk-radius:18px;
+  --lk-radius-sm:12px;
+  --lk-shadow:0 14px 40px rgba(0,0,0,.08);
+  --lk-shadow-hover:0 20px 55px rgba(0,0,0,.12);
+  --lk-ease:cubic-bezier(.2,.75,.25,1);
+}
+html{scroll-behavior:smooth}
+body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a,button{transition:transform .2s var(--lk-ease),opacity .2s ease,background-color .2s ease,border-color .2s ease,box-shadow .2s ease}
+a:focus-visible,button:focus-visible{outline:3px solid currentColor;outline-offset:4px}
+.nav{backdrop-filter:saturate(140%) blur(12px);-webkit-backdrop-filter:saturate(140%) blur(12px)}
+.page-grid{gap:clamp(14px,2vw,24px)}
+.meta-box,.card,.destination-card,.explore-destination-card{border-radius:var(--lk-radius-sm)}
+.explore-destination-card{
+  position:relative;overflow:hidden;min-height:170px;
+  padding:clamp(18px,3vw,28px);box-shadow:var(--lk-shadow);
+  transform:translateY(0)
+}
+.explore-destination-card:hover{transform:translateY(-4px);box-shadow:var(--lk-shadow-hover)}
+.explore-destination-card .eyebrow{letter-spacing:.12em;font-size:.72rem;opacity:.72}
+.explore-destination-card strong{font-size:clamp(1.15rem,2vw,1.55rem);letter-spacing:-.02em}
+.explore-card-link{font-size:.9rem;opacity:.72}
+img{max-width:100%;height:auto}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+</style>
+<style id="lankaora-v54-global">
+/* Lankaora v54 — durable editorial polish */
+:root{--lk-ink:#13221C;--lk-paper:#F4F1E9;--lk-line:rgba(19,34,28,.14);--lk-radius:16px;--lk-ease:cubic-bezier(.2,.75,.25,1)}
+::selection{background:var(--lk-ink);color:#fff}
+.nav-explore-submenu{border-radius:12px!important;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.14)!important}
+.nav-explore-submenu a{transition:background .2s ease,transform .2s var(--lk-ease)}
+.nav-explore-submenu a:hover{background:rgba(19,34,28,.07);transform:translateX(2px)}
+.page-shell .page-hero{max-width:1240px}
+.page-shell .cta-panel,.page-shell .meta-box,.page-shell .card{border-radius:var(--lk-radius)}
+button:focus-visible,a:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style><link rel="stylesheet" href="typography-v55.css">
+</head><body class="page-routes"><a class="skip-link" href="#main-content">Skip to content</a><header class="nav"><a class="brand" href="index.html"><span class="brand-small">Sri Lanka Travel Guide</span><span class="brand-name">Lankaora</span></a><nav aria-label="Primary navigation">
+  <div class="nav-explore">
+    <a class="nav-dropdown" href="explore.html" aria-haspopup="true" aria-expanded="false">
+      <span>Explore Sri Lanka</span><span class="nav-chevron" aria-hidden="true">⌄</span>
+    </a>
+    <div class="nav-explore-submenu" aria-label="Explore Sri Lanka submenu">
+      <a href="regions.html">Regions</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="experiences.html">Experiences</a>
+    </div>
+  </div>
+  <a href="guide.html">Sri Lanka Guide</a>
+  <a href="routes.html">Routes</a>
+  <a href="plan.html">Plan Your Trip</a>
+  <a href="map.html">Map</a>
+</nav><button class="mobile-menu-btn" aria-label="Open menu">Menu</button><a class="nav-cta" href="build.html">Build My Trip</a></header><main id="main-content" class="page-shell"><section class="page-hero solid-page-hero"><p class="eyebrow">SRI LANKA ITINERARIES</p><h1>Choose a journey.<br><em>Make it yours.</em></h1><p>Scenic routes and Sri Lanka itinerary ideas built around time, landscapes and the experiences you want most.</p></section><section class="route-intro"><p class="eyebrow">TRIP LENGTH</p><div class="route-lengths"><a href="#seven">7 DAYS</a><a href="#ten">10 DAYS</a><a href="#fourteen">14 DAYS</a><a href="#styles">TRAVEL STYLES</a></div></section><section id="seven" class="route-section"><div class="section-heading"><p class="eyebrow">7 DAYS</p><h2>A week in Sri Lanka.</h2><p>A focused first journey combining iconic heritage, highlands and coast without trying to see everything.</p></div><div class="page-grid"><a class="page-card" href="route.html?name=Classic%20Island"><span class="num">01</span><h3>Classic Sri Lanka</h3><p>Colombo → Sigiriya → Kandy → Ella → South Coast</p><small>Heritage · Highlands · Coast</small><br><b>Explore route →</b></a><a class="page-card" href="route.html?name=Wild%20Sri%20Lanka"><span class="num">02</span><h3>Wild Sri Lanka</h3><p>Sigiriya → Minneriya → Yala → South Coast</p><small>Nature · Wildlife · Coast</small><br><b>Explore route →</b></a></div></section><section id="ten" class="route-section"><div class="section-heading"><p class="eyebrow">10 DAYS</p><h2>More room to explore.</h2><p>Give the island more time: slow down in the hills, add heritage or follow the coast.</p></div><div class="page-grid"><a class="page-card" href="route.html?name=Highlands%20%26%20Coast"><span class="num">03</span><h3>Highlands & Coast</h3><p>Kandy → Nuwara Eliya → Ella → Galle → Mirissa</p><small>Tea country · Scenic rail · South Coast</small><br><b>Explore route →</b></a><a class="page-card" href="route.html?name=Cultural%20Heart"><span class="num">04</span><h3>Cultural Heart</h3><p>Sigiriya → Dambulla → Kandy → Anuradhapura → Polonnaruwa</p><small>Ancient cities · Temples · Heritage</small><br><b>Explore route →</b></a><a class="page-card" href="route.html?name=East%20Coast%20Escape"><span class="num">05</span><h3>East Coast Escape</h3><p>Kandy → Trincomalee → Nilaveli → Arugam Bay</p><small>Beaches · Surf · East Coast</small><br><b>Explore route →</b></a></div></section><section id="fourteen" class="route-section"><div class="section-heading"><p class="eyebrow">14 DAYS</p><h2>Take the long way.</h2><p>For travellers who want to connect several sides of Sri Lanka and leave space for slower days.</p></div><div class="wide-card"><h3>Build a two-week island journey</h3><p>Combine a cultural route with the highlands, wildlife and a coast that suits the season. Start with a route, then shape it around your interests.</p><a href="build.html">Build My Trip →</a></div></section><section id="styles" class="route-section"><div class="section-heading"><p class="eyebrow">TRAVEL STYLES</p><h2>Travel for the way you like to travel.</h2></div><div class="style-grid"><div><b>First-time Sri Lanka</b><p>Iconic places, balanced pacing and the island's essential highlights.</p></div><div><b>Slow & Scenic</b><p>Highlands, train journeys, viewpoints and time to stay longer in one place.</p></div><div><b>Wild & Active</b><p>National parks, nature, hiking and outdoor experiences.</p></div><div><b>Culture & Heritage</b><p>Ancient cities, temples, forts and living traditions.</p></div></div></section><section class="route-note"><p><strong>Planning note:</strong> These are inspiration routes, not live road-navigation or traffic-time estimates. Actual travel time can vary.</p></section><div class="cta-panel"><h2>Want a route made around you?</h2><p>Tell us your dates, interests and pace. We can shape the journey with you.</p><a href="build.html">Build My Trip →</a></div></main><footer class="footer-simple"><strong>Lankaora</strong> — Explore Sri Lanka Now</footer><div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+<button class="close" id="mobileClose" aria-label="Close menu">Close</button>
+<div class="mobile-explore-group">
+  <button class="mobile-explore-toggle" type="button" aria-expanded="false" aria-controls="mobileExploreSubmenu">
+    <span>Explore Sri Lanka</span><span aria-hidden="true">⌄</span>
+  </button>
+  <div class="mobile-explore-submenu" id="mobileExploreSubmenu" hidden>
+    <a href="regions.html">Regions</a>
+    <a href="destinations.html">Destinations</a>
+    <a href="experiences.html">Experiences</a>
+  </div>
+</div>
+<a href="guide.html">Sri Lanka Guide</a>
+<a href="routes.html">Routes</a>
+<a href="plan.html">Plan Your Trip</a>
+<a href="map.html">Map</a>
+<a href="build.html">Build My Trip</a>
+</div>
+<script>
+(function(){
+ const path=location.pathname.replace(/\\/g,'/');
+ document.querySelectorAll('.nav nav a').forEach(a=>{
+   const href=(a.getAttribute('href')||'').split('#')[0].split('?')[0];
+   const target=href.replace(/^\.\//,'').replace(/^\.\.\//,'');
+   const current=path.endsWith(target)||((target==='index.html'||target==='')&&/\/$/.test(path));
+   if(current)a.setAttribute('aria-current','page');
+ });
+ const btn=document.querySelector('.mobile-menu-btn'), menu=document.getElementById('mobileMenu'), close=document.getElementById('mobileClose');
+ if(!btn||!menu)return;
+ const open=()=>{menu.classList.add('open');menu.setAttribute('aria-hidden','false');btn.setAttribute('aria-expanded','true');close&&close.focus()};
+ const shut=()=>{menu.classList.remove('open');menu.setAttribute('aria-hidden','true');btn.setAttribute('aria-expanded','false');btn.focus()};
+ btn.setAttribute('aria-expanded','false'); btn.addEventListener('click',open);
+ close&&close.addEventListener('click',shut);
+ menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remove('open');menu.setAttribute('aria-hidden','true');btn.setAttribute('aria-expanded','false')}));
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu.classList.contains('open'))shut()});
+})();
+</script>
+
+<script>
+(function(){
+  const wrap = document.querySelector('.nav-explore');
+  const parent = document.querySelector('.nav-dropdown');
+  const mobileBtn = document.querySelector('.mobile-menu-btn');
+  const menu = document.getElementById('mobileMenu');
+  const closeBtn = document.getElementById('mobileClose');
+  const mobileToggle = document.querySelector('.mobile-explore-toggle');
+  const mobileSub = document.getElementById('mobileExploreSubmenu');
+
+  // Desktop: click toggles submenu; clicking a submenu item navigates normally.
+  if (wrap && parent) {
+    parent.addEventListener('click', function(e){
+      // First click opens the submenu instead of navigating.
+      // Second click follows explore.html.
+      if (!wrap.classList.contains('is-open')) {
+        e.preventDefault();
+        wrap.classList.add('is-open');
+        parent.setAttribute('aria-expanded','true');
+      }
+    });
+    document.addEventListener('click', function(e){
+      if (!wrap.contains(e.target)) {
+        wrap.classList.remove('is-open');
+        parent.setAttribute('aria-expanded','false');
+      }
+    });
+    parent.addEventListener('keydown', function(e){
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        wrap.classList.add('is-open');
+        parent.setAttribute('aria-expanded','true');
+        const first=wrap.querySelector('.nav-explore-submenu a');
+        if(first) first.focus();
+      }
+      if(e.key === 'Escape'){
+        wrap.classList.remove('is-open');
+        parent.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  // Mobile menu + mobile Explore submenu.
+  if(menu && mobileBtn){
+    const openMenu=()=>{
+      menu.classList.add('open');
+      menu.setAttribute('aria-hidden','false');
+      mobileBtn.setAttribute('aria-expanded','true');
+      if(closeBtn) closeBtn.focus();
+    };
+    const shutMenu=()=>{
+      menu.classList.remove('open');
+      menu.setAttribute('aria-hidden','true');
+      mobileBtn.setAttribute('aria-expanded','false');
+      if(mobileToggle) mobileToggle.setAttribute('aria-expanded','false');
+      if(mobileSub) mobileSub.hidden=true;
+      mobileBtn.focus();
+    };
+    mobileBtn.setAttribute('aria-expanded','false');
+    mobileBtn.addEventListener('click',openMenu);
+    if(closeBtn) closeBtn.addEventListener('click',shutMenu);
+    if(mobileToggle && mobileSub){
+      mobileToggle.addEventListener('click',()=>{
+        const expanded=mobileToggle.getAttribute('aria-expanded')==='true';
+        mobileToggle.setAttribute('aria-expanded',String(!expanded));
+        mobileSub.hidden=expanded;
+      });
+    }
+    menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+      menu.classList.remove('open');
+      menu.setAttribute('aria-hidden','true');
+      mobileBtn.setAttribute('aria-expanded','false');
+    }));
+    document.addEventListener('keydown',e=>{
+      if(e.key==='Escape' && menu.classList.contains('open')) shutMenu();
+    });
+  }
+
+  // Active page state.
+  const path=location.pathname.replace(/\\/g,'/');
+  document.querySelectorAll('.nav nav a, .mobile-menu a').forEach(a=>{
+    const href=(a.getAttribute('href')||'').split('#')[0].split('?')[0];
+    const target=href.replace(/^\.\//,'').replace(/^\.\.\//,'');
+    const current=path.endsWith(target)||((target==='index.html'||target==='')&&/\/$/.test(path));
+    if(current) a.setAttribute('aria-current','page');
+  });
+})();
+</script>
+</body></html>

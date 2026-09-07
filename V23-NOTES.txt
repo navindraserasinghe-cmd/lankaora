@@ -1,0 +1,1 @@
+V23 — Customer accounts, saved journeys, booking history, secure-ish server-side customer sessions, password hashing with scrypt, account APIs, journey CRUD, customer booking list. Payment card data is not stored. Saved journey loading is currently a planning-reference action; a future version can bind it to full builder state.

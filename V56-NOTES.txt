@@ -1,0 +1,5 @@
+Lankaora v56
+- Homepage EXPLORE SRI LANKA is now destination-only: Sigiriya, Galle, Ella, Yala, Kandy.
+- All five editorial cards link directly to destination pages.
+- Replaced route/experience cards from this section so the section matches its intended Destinations role.
+- Fixed homepage footer white side strips by making the dark footer full-bleed while keeping content constrained by padding.

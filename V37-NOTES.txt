@@ -1,0 +1,7 @@
+V37 — Experiences editorial + SEO
+- Reworked Experiences page as an SEO-friendly discovery hub for Things to Do in Sri Lanka.
+- Added category landing links and popular experience entry points.
+- Reworked experience detail page with unique content blocks, facts and experience ideas.
+- Kept shared navigation on desktop and mobile.
+- Kept inquiry-first conversion: Build My Trip / Send Inquiry; no payment gateway.
+- Uses planning guidance, not live availability or live prices.

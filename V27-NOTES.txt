@@ -1,0 +1,15 @@
+V27 — Deep Destination Guides
+
+Built from V26 Sri Lanka Content Foundation.
+Adds a dedicated Destination Guides layer with richer destination information:
+- Why go
+- Recommended stay
+- When to go guidance
+- Signature experiences
+- Nearby destinations
+- Region filters
+- Modal guide experience
+- Add to Journey / View on Map actions
+
+Existing V25 inquiry-first workflow and backend are preserved.
+Content is editorial/planning guidance, not live availability or live weather.

@@ -1,0 +1,1 @@
+Lankaora V16 — Route Intelligence: route flow score, approximate distance between known destinations, and gentle warnings for overly spread itineraries. It is planning logic, not live traffic/road-time data.

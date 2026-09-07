@@ -1,0 +1,6 @@
+V34 — Map bug fix + Destinations discovery upgrade.
+- Fixed Scenic Route filter so it shows route cards and fits the selected route on the map.
+- Kept map as discovery/planning, not live navigation.
+- Upgraded Destinations page with filters and 12 curated destination entries.
+- Home remains intentionally short.
+- Inquiry-first workflow retained; no payment gateway.
